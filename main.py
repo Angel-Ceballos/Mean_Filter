@@ -4,7 +4,7 @@ from simulation import Simulation
 if __name__ == "__main__":
 
     # load grayscale img
-    src_img = cv2.imread("Lenna.png", 0)
+    src_img = cv2.imread("dog.jpg", 0)
 
     # initialize and run hw simulation
     hw_mean_filter_sim = Simulation(raster=src_img, kernel=5, frequency=1e9)

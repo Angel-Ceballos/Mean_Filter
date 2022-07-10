@@ -29,6 +29,7 @@ class Simulation():
         self.mean_filter = HwMeanFilter(img_shape, self.kernel)
 
     def run_hw_simulation(self):
+        print("Process Runnig...")
         buff_id = 0
         h, w = self.src_img.shape
         for row in range(h):
